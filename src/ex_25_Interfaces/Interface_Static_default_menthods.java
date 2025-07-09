@@ -6,7 +6,7 @@ public class Interface_Static_default_menthods implements Vehicles,speedlimit{
 
         Interface_Static_default_menthods cr = new Interface_Static_default_menthods();
         cr.start();
-        Vehicles.fuelType();
+        Vehicles.fuelType();  // can call directely using the Interface name as its a static method
         System.out.println(speedlimit.MAX_SPEED);
     }
 }

@@ -7,6 +7,7 @@ public class Interface_Declar {
         Document dc = new Document();
         dc.print();
         dc.show();
+
     }
 }
 
